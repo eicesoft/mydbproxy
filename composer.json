@@ -1,0 +1,21 @@
+{
+    "name": "eicesoft/mydbproxy",
+    "type": "project",
+    "authors": [
+        {
+            "name": "eicesoft",
+            "email": "eicesoft@gmail.com"
+        }
+    ],
+    "require": {
+        "swoole/ide-helper": "~4.4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vary\\": "vary/src"
+        },
+        "files": [
+            "vary/src/Helper/functions.php"
+        ]
+    }
+}

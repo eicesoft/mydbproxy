@@ -1,0 +1,42 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 3386,
+    "params": {
+
+    }
+  },
+  "client_setting": {
+
+  },
+  "options": {
+    "user": "root",
+    "password": "123456",
+    "charset": "utf8mb4",
+    "pool": {
+      "min": 1,
+      "max": 2
+    }
+  },
+  "hosts": {
+    "write": {
+      "host": "",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "",
+      "charset": "utf8mb4"
+    },
+    "reader": {
+      "host": "",
+      "port": 3306,
+      "user": "root",
+      "password": "",
+      "database": "",
+      "charset": "utf8mb4"
+    }
+  },
+  "routers": {
+    "*": "default"
+  }
+}
